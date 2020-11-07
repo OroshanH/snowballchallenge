@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #535053;
+    overflow: hidden;
+}
+
+
+header{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background-color: #96031A;
+}
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+    display: flex;
+    
+
+    
+}
+
+.logo{
+    padding-left: 0.5%;
+    font-size: 20px;
+    color:#FAA916;
+}
+
+nav{
+    flex: 1;
+}
+
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    }
+
+
+.mainInnhold{
+    width: 100%;
+    height: 80vh;
+
+}
+
+
+.overskrift{
+    width: 50%;
+    height: 10vh;
+    margin: auto;
+    margin-top: 1%;
+    text-align: center;
+}
+.overskrift h1{
+    font-size: 50px;
+    color: #FAA916;
+
+}
+
+
+.footer{
+width: 100%;
+height: 10vh;
+background-color: #96031A;
+text-align: center;
+}
+.tekst{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    margin-top: 5%;
+    text-align: center;
+    color: white;
+}
+.tekst p{
+    font-size: 40px;
+}
+#strek{
+    margin: auto;
+    border: solid 5px #FAA916;
+    margin-top: 3%;
+    margin-bottom: -3%;
+    width: 50%;
+    height: 1%;
+    background-color: #FAA916;
+}
+
+@media screen and (max-width: 1248px){
+    .overskrift h1{
+        font-size: 30px;
+        color: #FAA916;
+    }
+    #strek{
+        width: 60%;
+    }
+    .tekst p{
+        font-size: 30px;
+    }
+  }
+  @media screen and (max-width: 913px){
+    .overskrift h1{
+        font-size: 30px;
+        color: #FAA916;
+    }
+    .overskrift{
+        width: 60%;
+    }
+    #strek{
+        width: 80%;
+    }
+    .tekst p{
+        font-size: 25px;
+    }
+    .tekst{
+        margin-top: 10%;
+        width: 90%;
+    }
+   
+  }   @media screen and (max-width: 781px){
+    .overskrift h1{
+        font-size: 30px;
+        color: #FAA916;
+    }
+    .overskrift{
+        width: 60%;
+    }
+    #strek{
+        width: 80%;
+    }
+    .tekst p{
+        font-size: 20px;
+    }
+    .tekst{
+        margin-top: 10%;
+        width: 90%;
+    }
+  
+  }@media screen and (max-width: 680px){
+    .overskrift h1{
+        font-size: 25px;
+        color: #FAA916;
+    }
+    .overskrift{
+        width: 60%;
+    }
+    #strek{
+        width: 80%;
+    }
+    .tekst p{
+        font-size: 18px;
+    }
+    .tekst{
+        margin-top: 10%;
+        width: 90%;
+    }
+  
+  }
+   @media screen and (max-width: 500px){
+      .logo{
+          display: none;
+      }
+    .overskrift h1{
+        font-size: 20px;
+        color: #FAA916;
+    }
+    .overskrift{
+        width: 60%;
+    }
+    #strek{
+        width: 80%;
+    }
+    .tekst p{
+        font-size: 15px;
+    }
+    .tekst{
+        margin-top: 10%;
+        width: 90%;
+    }
+  
+  } 
+  
+  
